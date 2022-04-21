@@ -38,11 +38,7 @@ function toggleApplyVisibility(select) {
     }
 }
 function getFrontTab() {
-    if ($('product_attribute_tabs_front')) {
-        return $('product_attribute_tabs_front').up('li');
-    } else {
-        return $('front_fieldset-wrapper');
-    }
+    return $('product_attribute_tabs_main');
 }
 
 function checkOptionsPanelVisibility(){
